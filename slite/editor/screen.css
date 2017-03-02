@@ -1,0 +1,24 @@
+#editor-region {
+    width: auto;
+    padding-right:10px;
+    height: 100%;
+}
+.editor {
+    width: 100%;
+    height: 100%;
+    color: #000000;
+}
+.ace_content {
+    padding: 0;
+    margin: 0;
+}
+.ace_gutter-layer {
+	/*background-color: #E0E0E0;*/
+    padding: 0;
+    border-style: solid;
+    border-color:#E2E1E1;
+    color: #000000;
+}
+.ace_error {
+    background-position: 3px 0 !important;
+}
