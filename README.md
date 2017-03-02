@@ -1,2 +1,5 @@
 # codiad-lite
-Codiad Lite theme
+Codiad Lite theme made by
+Suraj Khanal Chetri
+
+# sLite
