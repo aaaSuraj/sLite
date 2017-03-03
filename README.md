@@ -1,12 +1,4 @@
-# sLite
-Codiad Light colored theme made by
-Suraj Khanal Chetri
+#sLite theme for Codiad 
+Just upload it into your themes folder and change your theme name on login
 
-# How to Install
-Copy the sLite folder to your themes/ directory
-Change the theme on login --> Enjoy!!! ;)
-
-# Set as default theme
-change this inside the root of Codiad
-
-define("THEME","sLite");
+#Suraj
