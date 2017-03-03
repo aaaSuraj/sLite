@@ -1,4 +1,6 @@
 #sLite theme for Codiad 
 Just upload it into your themes folder and change your theme name on login
 
-#Suraj
+#Changing default theme
+change default theme in config.php
+
