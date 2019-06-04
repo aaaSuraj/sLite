@@ -29,8 +29,7 @@
     border-radius: 3px;
 }
 #file-manager a:hover, #file-manager a.context-menu-active {
-    background-color: #e9e9e9;
-    color: #333;
+    background-color: #eee;
 }
 #file-manager span {
     width:10px;
@@ -48,7 +47,7 @@
     font-size: 16px;
 }
 #file-manager .plus {
-    color: #333;
+    color: gray;
     font-family: entypo;
     font-style: normal;
     display: inline-block;
@@ -64,18 +63,18 @@
     font-size: 16px;
 }
 #file-manager .minus {
-    color: #333;
+    color: gray;
     font-family: entypo;
     font-style: normal;
     display: inline-block;
 }
 #file-manager .plus:hover {
     cursor: pointer;
-    color: red;
+    color: #fff;
 }
 #file-manager .minus:hover {
     cursor: pointer;
-    color: red;
+    color: #fff;
 }
 /* CONTEXT MENU */
 
@@ -90,7 +89,7 @@
     z-index: 9999999;
     background-clip: content-box;
     border: 3px solid rgba(255, 255, 255, 0.5);
-    /*box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .9);*/
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .9);
     border-radius: 3px;
     overflow-y: auto;
 }
@@ -98,20 +97,18 @@
     display: block;
     padding: 5px 5px 7px 5px;
     margin: 0;
-    color: #333;
 }
 #context-menu .icon {
     padding-right: 5px;
 }
 #context-menu a:hover {
-    background-color: #FFF;
-    color:red;
-    
+    background-color: #eee;
+    color: red;
 }
 #context-menu hr {
     height: 0;
     border: none;
-    border-top: 1px solid #e9e9e9;
+    border-top: 1px solid #eee;
     margin: 5px;
 }
 .disabled {
@@ -123,9 +120,8 @@
 #filemanager-search-results {
     display: none;
     height: 250px;
-    color:#262626;
-    /* overflow: scroll !important; */
-    border: 1px solid #e9e9e9;
+    overflow: scroll !important;
+    border: 1px solid #262626;
 }
 #filemanager-search-results div {
     padding: 4px 6px 3px 6px;
@@ -153,13 +149,13 @@
 #upload-drop-zone {
     height: 200px;
     padding-top: 60px;
-    border: 1px solid #FFF;
+    border: 1px solid #666;
     border-radius: 5px;
     margin: 10px 0;
-   /* box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .5);
-    */text-align: center;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    text-align: center;
     font-size: 25px;
-    color:red;
+    color: #999;
 }
 .upload-drag-over {
     border: 1px solid #fff;
@@ -172,12 +168,12 @@
 }
 #upload-clicker {
     background: #FFF;
-    color: #000;
+    color: #999;
     cursor: pointer;
     display: inline-block;
 }
 #upload-wrapper:hover #upload-clicker {
-    color: red;
+    color: #fff;
 }
 #upload-wrapper input {
     cursor: pointer;
@@ -187,17 +183,15 @@
     top: 0;
     opacity: 0.0;
 }
-
 #upload-progress {
     width: 75%;
     margin: 10px auto;
     height: 20px;
-    border: 1px solid #FFF;
+    border: 1px solid #666;
     background: #FFF;
     border-radius: 5px;
     overflow: hidden;
 }
-
 #upload-progress .bar {
     width: 0;
     height: 20px;
@@ -207,7 +201,7 @@
     display: none;
     font-size: 18px;
     margin: 10px 0;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -227,7 +221,6 @@
     text-indent: 22px;
     padding-top: 5px;
 }
-
 #file-manager .directory {
     background-image: url(images/directory.png);
 }
