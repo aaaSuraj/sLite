@@ -6,18 +6,24 @@
 .editor {
     width: 100%;
     height: 100%;
-    color: #000000;
+    color: #fff;
+}
+.ace_editor {
+    position: absolute !important;
 }
 .ace_content {
     padding: 0;
     margin: 0;
 }
 .ace_gutter-layer {
-	/*background-color: #E0E0E0;*/
     padding: 0;
-    border-style: solid;
-    border-color:#E2E1E1;
-    color: #000000;
+
+    background-color: #fff;
+    color: #999;
+    border-right: 0.5px solid #999;
+  
+  
+
 }
 .ace_error {
     background-position: 3px 0 !important;
